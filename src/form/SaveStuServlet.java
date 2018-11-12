@@ -22,7 +22,7 @@ public class SaveStuServlet extends HttpServlet {
 		String name = request.getParameter("stuname");
 		String address = request.getParameter("stuaddr");
 		String email = request.getParameter("stuemail");
-		
+		//string department=request.getParameter("studepartment"");
 		Student s = new Student();
 		
 		s.setName(name);
