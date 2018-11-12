@@ -25,6 +25,7 @@ public class SaveStuServlet extends HttpServlet {
 		Student s=new Student();
 		//student name = request.getaParameter("stuname");
 		//String address = request.getParameter("stuaddr");
+		//String email=request.getparameter("sanmcad@gmail.com");
 		s.setName(name);
 		s.setAddress(address);
 		s.setEmail(email);
